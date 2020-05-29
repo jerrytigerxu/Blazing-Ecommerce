@@ -1,5 +1,9 @@
 require("dotenv").config();
 
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     siteName: 'My Shop',
@@ -9,7 +13,7 @@ module.exports = {
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-source-datocms`,
-      options: { apiToken: process.env.DATO_API_TOKEN },
+      options: { apiToken: 'fa97279582466eafd890dc3d35f64e' },
     },
     {
       resolve: 'gatsby-plugin-snipcart',
@@ -17,6 +21,14 @@ module.exports = {
         apiKey: 'OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1',
         autopop: true
       }
+    },
+    {
+      resolve: 'gatsby-source-stripe',
+      options: {
+        objects: ["Sku"],
+        secretKey: process.env.STRIPE_SECRET_KEY,
+        downloadFiles: false,
+      },
     },
   ],
 }
