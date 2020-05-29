@@ -6,7 +6,7 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    siteName: 'My Shop',
+    siteName: 'Jere\'s Store',
   },
   plugins: [
     'gatsby-plugin-sass',
@@ -21,14 +21,6 @@ module.exports = {
         apiKey: 'OWE3MmZmMjQtNTk3Yi00OThhLWEwMmUtZDY4ZWM4NzIwYzZiNjM2NjM0Mzc1NzE0MTUwNzI1',
         autopop: true
       }
-    },
-    {
-      resolve: 'gatsby-source-stripe',
-      options: {
-        objects: ["Sku"],
-        secretKey: process.env.STRIPE_SECRET_KEY,
-        downloadFiles: false,
-      },
     },
   ],
 }

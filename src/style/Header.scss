@@ -1,10 +1,10 @@
 .Header {
-  background: #663399;
-  color: white;
+  background: #ffffff;
+  color: black;
   //border-bottom: 3px solid white;
   //box-shadow: 0 16px 0 black;
   //transform: rotateZ(8deg) skew(-2deg, -10deg) translateY(-10%);
-  margin: 50px;
+  margin: 0px;
 }
 
 .Header__body {
@@ -14,15 +14,15 @@
 
 .Header__title {
   flex: 1;
-  padding: 20px 0;
-  font-family: "times new roman", times, serif;
-  font-style: italic;
+  padding: 10px 0;
+  font-family: "Open Sans", "Calibri", "Helvetica", "Arial";
+  //font-style: italic;
 
   a {
-    font-size: 6em;
-    font-weight: bold;
+    font-size: 4em;
+    //font-weight: bold;
     position: relative;
-    color: white;
+    color: black;
     text-decoration: none;
     display: block;
     padding: 2px;
@@ -31,7 +31,7 @@
       content: attr(data-text);
       position: absolute;
       top: 0;
-      color: white;
+      color: black;
       background: #663399;
       overflow: hidden;
       clip: rect(0,900px,0,0);
@@ -45,7 +45,7 @@
 
 .Header__summary {
   text-decoration: none;
-  color: white;
+  color: black;
   text-align: center;
   cursor: pointer;
 

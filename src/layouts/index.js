@@ -7,7 +7,7 @@ import '../style/index.scss'
 
 const Layout = ({ children, site }) => (
   <div>
-    <Helmet title="Snipcart + DatoCMS + GatsbyJS Example" />
+    <Helmet title="Jere's E-commerce Site" />
     <div className="Container">
       <div className="Header">
         <div className="Wrap" >
@@ -19,7 +19,7 @@ const Layout = ({ children, site }) => (
             </h1>
             <div className="Header__summary snipcart-summary snipcart-checkout">
               <div className="Header__summary__title">
-                🛍 MY CART 🛍
+                My Cart 🛒
               </div>
               <div className="Header__summary__line">
                 Number of items: <span className="snipcart-total-items"></span>
