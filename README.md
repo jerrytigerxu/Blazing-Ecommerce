@@ -8,7 +8,8 @@ This repo contains a static e-commerce site written with [GatsbyJS](https://www.
  - Clone this project to your local machine 
  - In your terminal or command prompt, run `npm install` to get all of the packages from `package-lock.json`
  - Setup an account on [DatoCMS](https://www.datocms.com/)
- - 
- - Run `gatsby develop` and 
+ - Run `gatsby develop` and open `localhost:8000`
 
 ## About
+
+The goal of this project is to demonstrate how to create a minimalist, high-performance e-commerce site using these open-source tools. 
