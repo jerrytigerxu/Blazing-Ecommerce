@@ -1,4 +1,4 @@
-[!preview.png]
+![Preview Image](preview.png)
 
 ## Repo Usage
 
