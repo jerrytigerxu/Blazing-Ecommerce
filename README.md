@@ -1,6 +1,6 @@
 # Blazing E-commerce Site
 This repo contains a static e-commerce site written with [GatsbyJS](https://www.gatsbyjs.org/), integrated with content coming from [DatoCMS](https://www.datocms.com/), utilizing a shopping cart created with [Snipcart](https://snipcart.com/), and deployed with [Netlify](https://www.netlify.com/)
-![Preview Image](preview.png)
+![Preview Image](image.png)
 
 ## Repo Usage
 
