@@ -10,7 +10,7 @@
     "gatsby-link": "^2.2.25",
     "gatsby-plugin-react-helmet": "^3.1.16",
     "gatsby-plugin-sass": "^2.1.24",
-    "gatsby-plugin-sharp": "^2.3.5",
+    "gatsby-plugin-sharp": "^5.11.0",
     "gatsby-plugin-snipcart": "^1.1.2",
     "gatsby-source-datocms": "^2.2.0",
     "gatsby-source-stripe": "^3.0.7",
